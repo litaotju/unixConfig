@@ -39,4 +39,7 @@ set showcmd "命令行显示输入的命令
 set incsearch "输入字符串就显示匹配点
 set hlsearch  "高亮显示所有匹配点,可以使用 :nohlsearch 来暂时的关闭高亮，再次搜索就会再次高亮
 
-
+" --代码折叠--
+set foldmethod=syntax " 用语法高亮来定义折叠
+set foldlevel=100  " 启动vim时不要自动折叠
+set foldcolumn=5 " 设置折叠栏宽度
