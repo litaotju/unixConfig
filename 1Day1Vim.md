@@ -16,3 +16,23 @@
 3. 匹配移动的小技巧
     - % 移动到和当前括号匹配的下一个括号
     - * 查找当前单词,并高亮
+
+# 1.7 日
+
+1.安装NERDTree和vim-nerdtree-tabs实现文件管理器的功能。
+    - map <F9>为文件管理器的打开关闭按钮。
+    - NERDBookmark 命令添加常用的文件夹或者文件到 管理器。不论在哪打开vim都可以直接跳转到bookmark的文件夹。
+
+2.Tab相关的命令：
+    - tabnew 新建一个tab
+    - tabc 关闭当前tab
+    - 在tab栏双击 新建一个tab
+    - tabp / tabn 前一个或者后一个tab
+    - tabo 关闭其他所有tab （o for others）
+
+3.窗口（或者叫View）相关的命令：
+    - <C-w> <C-w>快速切换到其他窗口
+    - <C-w> j 切换到下边
+    - <C-w> k 切换到上边
+    - <C-w> h 切换到左边
+    - <C-w> l 切换到右边
